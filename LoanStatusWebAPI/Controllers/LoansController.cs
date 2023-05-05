@@ -22,6 +22,7 @@ namespace LoanStatusWebAPI.Controllers
         public LoansController(LoanStatusWebAPIContext context)
         {
             _context = context;
+            // This is the day the lord has made
         }
     }
 }
